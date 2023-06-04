@@ -27,8 +27,9 @@ namespace test2465
         return m.size();
     }
 
-    int test(){
-        vector<int> nums {4,1,4,0,3,5};
+    void test()
+    {
+        vector<int> nums{4, 1, 4, 0, 3, 5};
         distinctAverages(nums);
     }
 }
